@@ -1,0 +1,157 @@
+	
+	body {
+    font-family: 'Quicksand', sans-serif;
+	color:#d9dad9;
+	line-height:25px;
+}
+	.wrapper{
+	display:grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-auto-rows:minmax (100px, auto);
+	grid-gap:1em;
+	Padding:2em;
+	justify-items:stretch;
+	aligh-items:stretch;
+	}
+	
+
+	.wrapper > div{
+		
+		padding:3em;
+		
+	}
+	
+	.wrapper > div:nth-child(odd){
+		background-color:
+	}
+	
+	
+
+	
+	.box1{
+		grid-column: 1/3;
+		grid-row: 1;
+		background-color: rgba(80, 82, 82, 0.4);
+		border-radius: 20px 5px 5px 5px;
+		background-image:url("./IMG/IMG_1541.png");
+		background-repeat: no-repeat;
+		background-position: 110px 25px;
+		background-size:15%;
+		
+		
+		cloud foto's in ... s4 amazon cloud
+
+		
+		
+		
+	}
+	
+	.newspaper{
+		
+		color:#015657;
+		column-gap: 5em;
+		columns-count: 3;
+		-webkit-columns: auto 3; /* Chrome, Safari, Opera */
+		-moz-columns: auto 3; /* Firefox */
+		-webkit-column-gap: 5em;
+		-moz-column-gap: 5em;
+		column-gap: 5em;
+		column-rule-style: dotted;
+	}
+	
+	.box2{
+		grid-column: 3;
+		grid-row: 1;
+		background-image: url("./IMG/autokleiner1.png");
+	}
+	
+	.box3{
+		grid-column: 1/3;
+		grid-row: 2/5;
+		background-color:#008081;	
+		
+	}
+	
+	
+	.box4{
+		grid-column:3;
+		grid-row: 2/4;
+		background-color:#015657;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		
+		
+	}
+	
+	.box5{
+		grid-column:2/4;
+		grid-row: 5/6;	
+		background-image: url("./IMG/tattoosmall.png");
+		border-radius: 5px 5px 30px 5px;
+	}
+	
+	.box6{
+		background-color:#00c2c4;
+		background-color: rgba(35, 136, 137, 0.4);
+		color:#015657;
+		
+	}
+	
+	
+	.box7{
+		background-color:#015657;	
+		
+	}
+	
+	.box8{
+	}
+	
+	.box9{
+	}
+	
+	
+	h3{
+	}
+	
+	.meter { 
+	margin-top:0.1em;
+	height: 10px;  /* Can be anything */
+	position: relative;
+	background: #505252;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 30px;
+	padding: 0px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+	.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: rgb(0,128,129);
+  background-image: linear-gradient(
+    center bottom,
+    rgb(43,194,83) 37%,
+    rgb(84,240,84) 69%
+  );
+  box-shadow: 
+    inset 0 2px 9px  rgba(255,255,255,0.3),
+    inset 0 -2px 6px rgba(0,0,0,0.4);
+  position: relative;
+  overflow: hidden;
+}
+	.data{
+	color: #d9dad9;
+	 font-weight: 900;
+	 line-height:25px;
+	 
+}
+	
+	
+	
+
+	
+	
